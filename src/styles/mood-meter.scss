@@ -1,0 +1,41 @@
+.mood-meter {
+    &_container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    &_title {
+      color: #333;
+      font-size: 2rem;
+    }
+    &_quadrant {
+      display: flex;
+      max-width: 30%;
+      flex-wrap: wrap;
+    }
+    &_quadrant-row {
+      display: flex;
+      justify-content: center;
+    }
+  }
+
+  .mood-bubble {
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    &--red {
+      background: red;
+    }
+    &--yellow {
+      background: yellow;
+    }
+    &--blue {
+      background: blue;
+    }
+    &--green {
+      background: green;
+    }
+    &_container {
+      margin: 18px;
+    }
+  }

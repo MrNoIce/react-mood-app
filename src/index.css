@@ -6,24 +6,57 @@ body {
   ol, ul {
     padding-left: 30px;
   }
-  .game {
-    border: 3 px solid blue;
+
+  .sub_container {
+    border: 1px solid green;
+    display: flex;
+    flex-wrap: nowrap;
+    width: 100%;
+    justify-content: space-around;
+
   }
 
-  .game-board {
+
+  .board-row-1 {
+    border: 3px solid red;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-evenly;
-    border: 3px solid blue;
+    width: 50%;
+    justify-content: center;
+  }
+  .board-row-2 {
+    border: 3px solid rgb(255, 251, 0);
+    display: flex;
+    flex-wrap: wrap;
+    width: 50%;
+
+    justify-content: center;
+  }
+  .board-row-3 {
+    border: 3px solid rgb(0, 255, 42);
+    display: flex;
+    flex-wrap: wrap;
+    width: 50%;
+
+    justify-content: center;
+  }
+  .board-row-4 {
+    border: 3px solid rgb(17, 0, 255);
+    display: flex;
+    flex-wrap: wrap;
+    width: 50%;
+
+    justify-content: center;
   }
 
-  .board-row {
-    border: 3px solid red;
-    /* display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    flex-basis: auto; */
-  }
+  .circle {
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    border: 1px solid red;
+    background-color: greenyellow;
+}
+
 
   .square {
     background: #fff;
@@ -38,37 +71,6 @@ body {
     padding: 0;
     text-align: center;
     color: red;
-    /* width: 34px; */
     flex: auto;
   }
 
-  .quadrant_container {
-    display: flex;
-    margin: 50px;
-    justify-content: space-evenly;
-    color: green;
-  }
-
-  .status {
-    margin-bottom: 10px;
-  }
-
-  .square:focus {
-    outline: none;
-  }
-
-  .kbd-navigation .square:focus {
-    background: #ddd;
-  }
-
-  .game-info {
-    margin-left: 20px;
-  }
-
-  .circle {
-      border-radius: 50%;
-      width: 30px;
-      height: 30px;
-      border: 1px solid red;
-      background-color: greenyellow;
-  }
