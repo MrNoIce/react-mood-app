@@ -48,7 +48,7 @@ import React from 'react'
 import ReactDOM from 'react-dom'
 import { Route, BrowserRouter as Router } from 'react-router-dom'
 import MoodMeter from './components/MoodMeter'
-import Root from './components/MoodMeter1'
+import Root from './styledComponents/MoodMeter1'
 import './styles/index.scss'
 const routing = (
   <Router>
